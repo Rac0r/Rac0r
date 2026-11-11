@@ -40,6 +40,5 @@
   <text x="48" y="215" font-size="22" fill="#CDD6F4">DevOps Engineer, Professional Shark Enjoyer<tspan fill="#89DCEB" dx="10">🦈</tspan></text>
 
   <!-- tags + cursor -->
-  <text x="48" y="254" font-size="16" fill="#7F849C" textLength="430" lengthAdjust="spacingAndGlyphs">Rust · Python · DevOps</text>
-  <rect class="cursor" x="472" y="238" width="10" height="20" rx="2" fill="#89DCEB"/>
+  <text x="48" y="254" font-size="16" fill="#7F849C">Rust · Python · DevOps<tspan class="cursor" dx="8" fill="#89DCEB">█</tspan></text>
 </svg>
