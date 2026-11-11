@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="Jonas – DevOps Engineer, Professional Shark Enjoyer">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#89DCEB"/>
+      <stop offset="50%" stop-color="#89B4FA"/>
+      <stop offset="100%" stop-color="#CBA6F7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="win"><rect x="10" y="10" width="820" height="280" rx="18"/></clipPath>
+    <style>
+      text { font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <g clip-path="url(#win)">
+    <rect x="10" y="10" width="820" height="280" fill="#1E1E2E"/>
+    <rect x="10" y="10" width="820" height="44" fill="#181825"/>
+  </g>
+  <rect x="10" y="10" width="820" height="280" rx="18" fill="none" stroke="#313244" stroke-width="2"/>
+
+  <!-- traffic lights -->
+  <circle cx="40" cy="32" r="7" fill="#F38BA8"/>
+  <circle cx="64" cy="32" r="7" fill="#F9E2AF"/>
+  <circle cx="88" cy="32" r="7" fill="#A6E3A1"/>
+  <text x="420" y="37" text-anchor="middle" font-size="14" fill="#7F849C">rac0r@github: ~</text>
+
+  <!-- prompt -->
+  <text x="48" y="96" font-size="20"><tspan fill="#89DCEB">rac0r@github</tspan><tspan fill="#CDD6F4">:</tspan><tspan fill="#B4BEFE">~</tspan><tspan fill="#CBA6F7">$</tspan><tspan fill="#CDD6F4" dx="12">./whoami</tspan></text>
+
+  <!-- name -->
+  <text x="46" y="170" font-size="68" font-weight="800" letter-spacing="4" fill="url(#name)" filter="url(#glow)">JONAS</text>
+
+  <!-- tagline -->
+  <text x="48" y="215" font-size="22" fill="#CDD6F4">DevOps Engineer, Professional Shark Enjoyer<tspan fill="#89DCEB" dx="10">🦈</tspan></text>
+
+  <!-- tags + cursor -->
+  <text x="48" y="254" font-size="16" fill="#7F849C" textLength="430" lengthAdjust="spacingAndGlyphs">Rust · Python · DevOps</text>
+  <rect class="cursor" x="472" y="238" width="10" height="20" rx="2" fill="#89DCEB"/>
+</svg>
